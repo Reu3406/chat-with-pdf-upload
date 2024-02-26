@@ -97,7 +97,7 @@ def main():
     if "openai_key" not in st.session_state:
         st.session_state.openai_key = None
 
-    st.header("Upload Your PDFs and ask me anything about them")
+    st.header("Hi ! I'm G-AI-RY, your personal AI document assistant. \n Upload Your PDFs and ask me anything about them")
     user_question = st.text_input("What would you like to know from your documents?")
     if user_question:
         handle_userinput(user_question)
